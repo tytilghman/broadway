@@ -8,6 +8,7 @@ html {
 
 #header {
   background-image: url(../../resources/images/the-flatiron-building.png);
+  background-size: auto;
 }
 
 h1, h2, h3 {
@@ -41,8 +42,13 @@ h3 {
   background-image: url(../../resources/images/the-flatiron-building.png);
 }
 
-#footer {
+#footer  {
   color:white;
   background-color: dimgray;
   font-size: 11px;
+}
+
+#footer a {
+  font-size: 18px;
+  color:white;
 }
